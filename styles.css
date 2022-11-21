@@ -1,0 +1,255 @@
+body 
+{
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    background-color: #eee;
+}
+
+li
+{
+    list-style: none;
+}
+
+#main
+{
+    position: relative;
+}
+
+/*En este apartado vamos a crear nuestra barra de navegación*/
+#header
+{
+    
+    display: flex;
+    height: 100px;
+}
+
+#header-img
+{
+    padding-left: 20px;
+    height: 100%;
+}
+
+.container-img
+{
+    display: flex;
+    width: 40%;
+}
+
+#title
+{
+    margin-left: 10px;
+}
+
+#nav-bar
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.container-list
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-list li
+{
+    list-style: none;
+}
+
+.container-list a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Seccíon solicitud de correo*/
+.container-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#email
+{
+    height: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#submit
+{
+    margin-top: 10px;
+    max-width: 150px;
+    margin-left: 25%;
+    height: 30px;
+}
+
+.btn
+{
+    padding: 0 20px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 2px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+}
+
+/*Creando seccion de caracteristicas*/
+
+#container-caracteristicas
+{
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+.div-caracteristicas
+{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-caracteristicas
+{
+    
+    width: 100%;
+
+}
+
+.section-caracteristicas
+{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.icon
+{
+    width: 80px;
+    height: 80px;
+}
+
+.section-caracteristicas p
+{
+    margin-top: 2px;
+}
+
+.section-caracteristicas h2
+{
+    margin-bottom: 2px;
+}
+
+/*Creando seccion de video*/
+#container-video
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#video
+{
+    border-radius: 5px;
+}
+
+/*Creamos nuestra sección de precios*/
+#precios
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.div-precios
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 3px;
+    width: 20%;
+}
+
+.div-span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    height: 40px;
+    width: 100%;
+}
+
+.div-list
+{
+    line-height: 3px;
+}
+
+.div-precios button
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Creamos nuestra sección de footer*/
+#footer
+{
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+#footer-list
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    
+}
+
+footer > span
+{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 0.9em;
+    color: #444;
+}
+
+.ll a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#footer-list li
+{
+    padding: 0 10px;
+    
+}
+
+@media (max-width: 400px)
+{
+    #container-video
+    {
+        height: 10px;
+    }
+}
